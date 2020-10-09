@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/winelist/winelist",
+    "pages/winedetail/winedetail",
+    "pages/hostlist/hostlist",
+    "pages/shoppingcar/shoppingcar",
+    "pages/confirmorder/confirmorder",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "backgroundColor": "#4a4a4a",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/icon_home.jpg",
+        "selectedIconPath": "img/icon_home.jpg"
+      },
+      {
+        "pagePath": "pages/winelist/winelist",
+        "text": "美酒",
+        "iconPath": "img/icon_wine.jpg",
+        "selectedIconPath": "img/icon_wine.jpg"
+      },
+      {
+        "pagePath": "pages/hostlist/hostlist",
+        "text": "饭店",
+        "iconPath": "img/icon_tableware.jpg",
+        "selectedIconPath": "img/icon_tableware.jpg"
+      },
+      {
+        "pagePath": "pages/shoppingcar/shoppingcar",
+        "text": "购物车",
+        "iconPath": "img/icon_shopcar.jpg",
+        "selectedIconPath": "img/icon_shopcar.jpg"
+      },
+      {
+        "pagePath": "pages/winelist/winelist",
+        "text": "个人中心",
+        "iconPath": "img/icon_member.jpg",
+        "selectedIconPath": "img/icon_member.jpg"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
